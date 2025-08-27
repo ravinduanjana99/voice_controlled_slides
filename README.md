@@ -25,3 +25,18 @@ This project allows you to start, navigate, and stop a slideshow (PowerPoint, Go
    ```bash
    git clone https://github.com/your-username/voice-slide-navigator.git
    cd voice-slide-navigator
+
+2. **Create a virtual environment**
+   python -m venv .venv
+   source .venv/bin/activate   # On Linux/macOS
+   .venv\Scripts\activate      # On Windows
+
+3. **Create a virtual environment**
+   Install dependencies
+      pip install -r requirements-pinned.txt
+   
+4. **Model Download**
+   Download Vosk Model-.venv/models/vosk-model-small-en-us-0.15
+
+5. **Run the programme**
+  python voice_slide_controller.py
